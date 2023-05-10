@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+#menu-title {
+    top: 0%;
+    text-align: center;
+}
+
+.modal {
+    font-size: 12px;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#discussion-heading {
+    color: rgb(170, 39, 39);
+}
+
+span:hover {
+    cursor: pointer;
+    color: rgb(170, 39, 39);
+}
+
+#myBtn:hover {
+    cursor: pointer;
+    /* background-color: rgb(170, 39, 39); */
+}
+
+.modal-content {
+    border: 1px solid rgb(170, 39, 39);
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+#menulogo {
+    width: 500px;
+    height: auto;
+    margin-left: 25%;
+}
+
+/* foo:hover, foo:focus {
+    styles
+} */
+
+#styledtable {
+    margin: 0% 10% 5% 10%;
+    width: 80%;
+    /* margin-top: 20%; */
+    /* margin-bottom: 70%; */
+}
+
+#menu-st {
+    color: brown;
+    text-align: center;
+    
+}
+
+.container {
+    width:60%;
+    height: auto;
+    margin:0 auto;
+    padding:10px 25px;
+    border:1px solid rgb(170, 39, 39);
+    background:#fff; 
+}
+#disclaimer {
+    color: rgb(96, 23, 23);
+    font-weight: 100;
+}
+
+#card {
+    color: rgb(96, 23, 23);
+    font-weight: 100;
+    margin-top: 0;
+}
+
+
+#ingredients{
+    margin-top: -5%;
+    color: rgb(96, 23, 23);
+}
+
+#readings {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#desc {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+#price {
+    font-size: 14px;
+}
+
+img {
+    margin: 0% 20% -5% 20%;
+    /* width: 80%; */
+    width: 60%;
+    height: 60%;
+}
+
+.top:hover {
+    display:none;
+}
+.top:hover ~ .bottom {
+    display: block;
+    /* margin-top: 6%; */
+    cursor: pointer;
+}
+
+.bottom {
+    display: none;
+}
+
+#link {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+#art-desc {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#art-heading {
+    padding-top: 5%;
+    color: rgb(170, 39, 39);
+    text-align: center;
+}
+
+.back {
+    color: grey;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+/* .back:hover {
+    font: rgb(170, 39, 39);
+    font-weight: 200;
+} */
+
+a:link { text-decoration: none; }
+
+
+a:visited { 
+    text-decoration: none;
+}
+
+
+a:hover { 
+    text-decoration: none; 
+}
+
+
+a:active { text-decoration: none; }
+
+#grace {
+    font-weight: 500;
+    text-align: center;
+    color: rgb(121, 8, 8);
+}
